@@ -5,7 +5,8 @@ git clone https://github.com/ArhostCode/dyndnscf.git
 pip install -r requirements.txt
 ```
 ### Configuration
-In dynamic_dns.py change
+1. Create A record in cloudflare
+2. In dynamic_dns.py change
 ```
 DOMAIN = "DOMAIN"  
 DNS_DOMAIN = "DNS.DOMAIN"  
