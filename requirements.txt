@@ -1,0 +1,2 @@
+cloudflare~=2.9.10
+requests~=2.27.1
